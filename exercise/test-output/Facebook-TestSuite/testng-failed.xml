@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Facebook-TestSuite]" guice-stage="DEVELOPMENT">
+  <parameter name="browser" value="chrome"/>
+  <test thread-count="5" name="Tests(failed)">
+    <classes>
+      <class name="com.automation.tests.LoginTests">
+        <methods>
+          <include name="browserConfiguration"/>
+          <include name="Login_Create_And_Post_A_Message"/>
+        </methods>
+      </class> <!-- com.automation.tests.LoginTests -->
+    </classes>
+  </test> <!-- Tests(failed) -->
+</suite> <!-- Failed suite [Facebook-TestSuite] -->
